@@ -1,4 +1,4 @@
-# NerdMiner_v2-Cheap-Yellow-Display
+# NerdMiner_v2 Cheap-Yellow-Display
 
 <p align="center">
   <img src="https://github.com/Fr4nkFletcher/NerdMiner_v2-Cheap-Yellow-Display/blob/main/img/nmv2.jpg" alt="Demo 1">
