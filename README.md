@@ -50,3 +50,5 @@ With the USB-C port to the right:
 
 - One Click > turn the screen off and on again
 - Double click > change orientation (default is USB-C to the right)
+
+To remotely view your miner's progress, visit [web.public-pool.io](https://web.public-pool.io/#/)
