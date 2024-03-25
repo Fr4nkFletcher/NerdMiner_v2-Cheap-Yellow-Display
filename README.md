@@ -13,7 +13,7 @@ Visit the [webflasher](https://fr4nkfletcher.github.io/NerdMiner_v2-Cheap-Yellow
 
 After flashing, you will only need to setup your Wifi and BTC address.
 
-Note: when BTC address of your selected wallet is not provided, mining will not be started.
+Note: When the BTC address of your selected wallet is not provided, mining will not start.
 
 #### Wifi Accesspoint
 
