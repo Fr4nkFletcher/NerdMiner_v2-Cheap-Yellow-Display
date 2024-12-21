@@ -7,7 +7,7 @@
       "parts": [
         { "path": "ESP32-2432S028R_bootloader.bin", "offset": 4096 },
         { "path": "ESP32-2432S028R_partitions.bin", "offset": 32768 },
-        { "path": "0xe000_boot_app0.bin", "offset": 57344 },
+        { "path": "boot_app0.bin", "offset": 57344 },
         { "path": "ESP32-2432S028R_firmware.bin", "offset": 65536 }
       ]
     },
