@@ -87,6 +87,9 @@
         <li>
           <label><input type="radio" name="type" value="cyd" /> CYD Micro-USB only</label>
         </li>
+        <li>
+          <label><input type="radio" name="type" value="cyd2usb" /> CYD2USB</label>
+        </li>
       </ul>
       <p class="button-row" align="center">
         <esp-web-install-button class="invisible"></esp-web-install-button>
@@ -98,11 +101,11 @@
         > &mdash;
         Installer powered by <a href="https://esphome.github.io/esp-web-tools/">ESP Web Tools</a> 🛠️
     </div>
-    <script>
+     <script>
       document.querySelectorAll('input[name="type"]').forEach(radio =>
         radio.addEventListener("change", () => {
           const button = document.querySelector('esp-web-install-button');
-          button.manifest = `web/manifest.json`;
+          button.manifest = `web/manifest_${radio.value}.json`;
           button.classList.remove('invisible');
         }
       ));

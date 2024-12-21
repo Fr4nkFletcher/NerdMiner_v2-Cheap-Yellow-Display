@@ -1,0 +1,21 @@
+{
+  "name": "NerdMiner_v2 CYD Webflasher",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "improv": false,
+      "parts": [
+        { "path": "ESP32_2432S028_2USB_bootloader.bin", "offset": 4096 },
+        { "path": "ESP32_2432S028_2USB_partitions.bin", "offset": 32768 },
+        { "path": "0xe000_boot_app0.bin", "offset": 57344 },
+        { "path": "ESP32_2432S028_2USB_firmware.bin", "offset": 65536 }
+      ]
+    },
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "esp8266.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
